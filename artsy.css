@@ -1,0 +1,53 @@
+:root {
+    background-color: rgb(4, 40, 4);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+button {
+    padding: 6px;
+    border: none;
+
+    background-color: black;
+    color: white;
+}
+
+button.light {
+    background-color: white;
+    color: black;
+}
+
+.bigButton {
+    padding: 5px;
+    border: 3px solid maroon;
+    background-color: black;
+    color: white;
+}
+
+pre {
+    background-color: #0001;
+    color: white;
+    user-select: all;
+    width: 140px;
+    margin: 0;
+    padding: 6px 12px;
+    border: 1px solid black;
+}
