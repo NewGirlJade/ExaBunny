@@ -6,7 +6,7 @@ const pixels = new Map();
 
 for (let x = 0; x < 10; x++) {
     const row = document.createElement("div");
-    row.classLinst.add("row");
+    row.classList.add("row");
     for (let y = 0; y < 10; y++) { 
         const button = document.createElement("button");
         button.classList.add("pixel");
